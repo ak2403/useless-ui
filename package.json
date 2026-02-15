@@ -1,0 +1,37 @@
+{
+  "name": "useless-ui",
+  "version": "0.0.1",
+  "description": "A simple UI library for learning design systems and accessibility.",
+  "homepage": "https://github.com/ak2403/useless-ui#readme",
+  "bugs": {
+    "url": "https://github.com/ak2403/useless-ui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak2403/useless-ui.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.12.4",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "npm@10.2.4",
+  "engines": {
+    "node": ">=18"
+  }
+}
